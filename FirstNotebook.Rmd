@@ -1,11 +1,55 @@
 ---
-title: "R Notebook"
-output: html_notebook
+title: "Studiekrav: Reproduserbarhet"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
 ---
 
-# Reproduserbarhet 
-```{r}
+# Generell info til oppgaven vår:  
+Dersom vi ønsker å fortsette på linja under trenger en bare ta to mellomrom etter teksten..  
+_**Italic og bold**_  
+**Bold**  
+_Italic_
 
-```
+Her er et sitat:  
 
+> Dette er et sitat.
 
+Her er en ordnet liste på  2 nivå:  
+
+1. Punkt 1
+    + Punkt 1.2
+1. Punkt 2
+    + Punkt 2.2
+
+# Innledning
+Tekst. 
+
+# Litteraturgjennomgang
+### Replikerbarhet / Reproduserbarhet
+Tekst.
+
+### Problemets omfang
+Tekst.
+
+### Mulig løsning
+Tekst. 
+
+# Analyse
+### Overskrift.
+Tekst.
+
+### Neste overskrift.
+Tekst.
+
+# Konklusjon
+Tekst.
+
+# Litteraturliste
+Referanser.
+
+# Appendiks
+Her kommer et bilde av git history. Vi må ha minst 10 commits, 3 branches og gjerne en merge conflict for stjerne i boka. Til info så ska dette bilde ligge under appendiks. 
+
+![Her er et bilde](Bildet.png)
