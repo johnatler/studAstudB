@@ -31,7 +31,10 @@ Tekst.
 Tekst.
 
 ### Problemets omfang
+
 Tekst.
+
+Her kommer noen kloke ord fra Ørjan.
 
 ### Mulig løsning
 Tekst. 
