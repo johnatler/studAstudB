@@ -4,6 +4,8 @@ output:
   html_document:
     df_print: paged
   pdf_document: default
+lang: nb-NO
+bibliography: reproducibility.bib
 ---
 
 # Generell info til oppgaven vår:  
