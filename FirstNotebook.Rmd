@@ -48,8 +48,8 @@ Her kommer noen kloke ord fra Ørjan.
 Tekst. 
 
 # Analyse
-### Overskrift.
-Tekst.
+### Overskrift. 
+Tekst. @eu2015
 
 ### Neste overskrift.
 Tekst.
@@ -58,7 +58,8 @@ Tekst.
 Tekst.
 
 # Litteraturliste
-Referanser.
+<div id="refs"></DIV>
+
 
 # Appendiks
 Her kommer et bilde av git history. Vi må ha minst 10 commits, 3 branches og gjerne en merge conflict for stjerne i boka. Til info så ska dette bilde ligge under appendiks. 
