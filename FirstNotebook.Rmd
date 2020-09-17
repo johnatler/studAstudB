@@ -6,6 +6,7 @@ output:
   pdf_document: default
 lang: nb-NO
 bibliography: reproducibility.bib
+csl: apa-no-ampersand.csl 
 ---
 
 # Generell info til oppgaven vår:  
@@ -30,7 +31,7 @@ Tekst.
 
 # Litteraturgjennomgang
 ### Replikerbarhet / Reproduserbarhet
-Tekst.
+Da har jeg begynt på litteraturgjennomgang. 
 
 ### Problemets omfang
 
