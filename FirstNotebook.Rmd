@@ -26,7 +26,10 @@ Her er en ordnet liste på  2 nivå:
     + Punkt 2.2
 
 # Innledning
-Reproduserbarhet 
+Reproduserbarhet er viktig for å skape troverdighet av funnnene som forskes på. Det vil si at om du har samme datasett, skal funnene være ganske like for at vi kan si at funnene er reproduserbare. 
+
+Reproduserbarhet er aktuelt i R notebook der en kan reprodusere tallmateriale så lenge en har lastet alle de riktige pakkene. Ved samme datasett skal en få omtrentlig samme verdier om en tester datasettet ved flere anledninger inne i R Notebook.
+
 
 # Litteraturgjennomgang
 ### Replikerbarhet / Reproduserbarhet
