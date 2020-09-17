@@ -30,16 +30,24 @@ Tekst.
 
 # Litteraturgjennomgang
 ### Replikerbarhet / Reproduserbarhet
-Da har jeg begynt på litteraturgjennomgang. 
+–Replikerbarhet/reproduserbarhet
 
+
+      
 ### Problemets omfang
 
-Tekst.
+∗Vil dagens løsning med arkiv av data og event. programkode hos tidsskriftenekunne løse problemet?
 
-Her kommer noen kloke ord fra Ørjan.
+
 
 ### Mulig løsning
-Tekst. 
+
+–Mulig løsning (teoretisk plan):
+      ∗«Compendium», «Dynamic document», «code chunck» og «text chunk»
+      
+–Mulig løsning:
+      ∗R Notebooks 
+
 
 # Analyse
 ### Overskrift.
