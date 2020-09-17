@@ -6,6 +6,7 @@ output:
   pdf_document: default
 lang: nb-NO
 bibliography: reproducibility.bib
+csl: apa-no-ampersand.csl 
 ---
 
 # Generell info til oppgaven vår:  
@@ -24,6 +25,11 @@ Her er en ordnet liste på  2 nivå:
     + Punkt 1.2
 1. Punkt 2
     + Punkt 2.2
+    
+Header   | Second Header
+-------- |   -------------
+123      |  123455
+123      |  12434 
 
 # Innledning
 Reproduserbarhet er viktig for å skape troverdighet av funnnene som forskes på. Det vil si at om du har samme datasett, skal funnene være ganske like for at vi kan si at funnene er reproduserbare. 
@@ -33,7 +39,7 @@ Reproduserbarhet er aktuelt i R notebook der en kan reprodusere tallmateriale s�
 
 # Litteraturgjennomgang
 ### Replikerbarhet / Reproduserbarhet
-Tekst.
+Da har jeg begynt på litteraturgjennomgang. 
 
 ### Problemets omfang
 
@@ -45,8 +51,8 @@ Her kommer noen kloke ord fra Ørjan.
 Tekst. 
 
 # Analyse
-### Overskrift.
-Tekst.
+### Overskrift. 
+Tekst. @eu2015
 
 ### Neste overskrift.
 Tekst.
@@ -55,7 +61,8 @@ Tekst.
 Tekst.
 
 # Litteraturliste
-Referanser.
+<div id="refs"></DIV>
+
 
 # Appendiks
 Her kommer et bilde av git history. Vi må ha minst 10 commits, 3 branches og gjerne en merge conflict for stjerne i boka. Til info så ska dette bilde ligge under appendiks. 
