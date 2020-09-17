@@ -26,7 +26,7 @@ Her er en ordnet liste på  2 nivå:
     + Punkt 2.2
 
 # Innledning
-Tekst. 
+Reproduserbarhet 
 
 # Litteraturgjennomgang
 ### Replikerbarhet / Reproduserbarhet
