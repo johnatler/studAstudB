@@ -31,6 +31,20 @@ Header   | Second Header
 123      |  123455
 123      |  12434 
 
+# Innholdsfortegnelse
+1. Innledning
+1. Litteraturgjennomgang
+    + Replikerbarhet/Reproduserbarhet
+    + Problemets omfang
+    + Mulig løsning
+1. Analyse
+    + Overskrift 1
+    + Overskrift 2
+1. Konklusjon
+1. Litteraturliste
+1. Appendiks
+
+
 # Innledning
 Reproduserbarhet er viktig for å skape troverdighet av funnnene som forskes på. Det vil si at om du har samme datasett, skal funnene være ganske like for at vi kan si at funnene er reproduserbare. 
 
