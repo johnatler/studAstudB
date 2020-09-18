@@ -42,23 +42,34 @@ Når det kommer til _generalisering_ så refereres det til hvorvidt resultatene 
 
 Robusthet og pålitelighet ses på som selve fundamentet for vitenskapelig utvikling og fremgang [@bollen2015].
 
-Pupliseringsskjevhet er videre noe som forskning har fokusert på. Publiseringsskjevhet refereres til sannsynligheten for at en studie blir publisert, basert på resultatene. Er relativt få publikasjoner der en ikke kan forkaste nullhypotesen, for eksempel at en medisin ikke har effekt. Worst case - scenario kan da bli at forskningsjournaler blir en stor samling av type 1-feil. Type 1-feil er at en forkaster nullhypotesen selv om den i virkeligheten er sann. Et slikt scenario blir ofte kalt "File Drawer Problem" [@rosenthal1979]. 
+Pupliseringsskjevhet er videre noe som forskning har fokusert på. Publiseringsskjevhet refereres til sannsynligheten for at en studie blir publisert, basert på resultatene. Er relativt få publikasjoner der en ikke kan forkaste nullhypotesen, for eksempel at en medisin ikke har effekt.  Worst case - scenario kan da bli at forskningsjournaler blir en stor samling av type 1-feil. Type 1-feil er at en forkaster nullhypotesen selv om den i virkeligheten er sann. Et slikt scenario blir ofte kalt "File Drawer Problem" [@rosenthal1979]. For illustrasjonens del kan det i realiteten være 100 upubliserte studier som ikke kan forkaste H0 om at en medisin har null effekt, mens 4 som forkaster denne H0 kan være publisert.Dette kan spre uriktig informasjon, og føre til dårlige investeringer i blant annet politiske reformer som har veldig liten effekt og dårlige forskningsprosjekter, samt begrense et tidsskrift sin troverdighet [@simmons2011]. 
 
 ### Problemets omfang
 
-∗Vil dagens løsning med arkiv av data og event. programkode hos tidsskriftenekunne løse problemet?
+- **Vil dagens løsning med arkiv av data og event. programkode hos tidsskriftene kunne løse problemet?**
 
+For å løse problemer knyttet til reproduserbarhet og replikerbarhet, var løsningen på 80-tallet å opprette arkiver i tidsskriftene for kode og data fra studiene som blir gjort. Dette er brukt av flere store  tidsskrifter lenge. @mccullough2008 fant likevel at de fleste store tidsskrifter ikke oppfylte reproduserbarhet og replikerbarhet, og at resultatene ikke kunne bli reprodusert ved bruk av dataen og koden som lå ved studiene. Dette var temmelig nedslående resultater, og det kan se ut som dagens løsning ikke fungerer; problemet er fortsatt der. 
 
-
+Datacite prøvde videre å lage en global database med data fra all forskning, der internasjonalt samarbeid var i fokus [@brase2009].EU har også vært inne med en løsning [@eu2015]. 
 
 ### Mulig løsning
 
-–Mulig løsning (teoretisk plan):
-      ∗«Compendium», «Dynamic document», «code chunck» og «text chunk»
-      
-–Mulig løsning:
-      ∗R Notebooks 
+**Computable documents**  
+En annen mulig løsning er at koden ligger som en integrert part i forskningsartiklene, herunder at de inneholder tekst, samt kode for lese data, kalkulere modeller, teste og vise resultater. Dette vil da gi et fullstendig reproduserbart dokument [@knuth1992]. 
 
+Et kompendium har en eller flere selvforsynte livedokumenter som kan regenerere resultater ned til den minste detalj av andre [@gentleman2007].Kan da stole på denne dataen og studere denne.  
+
+**Dynamic document**  
+Dynamisk dokument er en ordnet sammensetning av såkalte kode- og tekst-chunks som beskriver og diskuterer et problem og en løsning. 
+
+**Code chunk**  
+"Code chunk" er en linje med kode som kan kjøres. 
+
+**Text chunk**  
+"Text chunk" er en linje med tekst. 
+
+**R Notebooks**  
+En R Notebook er et R Markdown dokument med chunks som kan bli kjørt både individuelt og sammen, med synlig output under med en gang etter den er kjørt. 
 
 # Analyse
 ### Overskrift.
@@ -71,7 +82,7 @@ Tekst.
 Tekst.
 
 # Litteraturliste
-Referanser.
+<div id="refs"></DIV>
 
 # Appendiks
 Her kommer et bilde av git history. Vi må ha minst 10 commits, 3 branches og gjerne en merge conflict for stjerne i boka. Til info så ska dette bilde ligge under appendiks. 
