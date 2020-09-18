@@ -49,7 +49,7 @@ Tekst.
 
 # Analyse
 ### Overskrift. 
-Tekst. @eu2015
+
 
 ### Neste overskrift.
 Tekst.
