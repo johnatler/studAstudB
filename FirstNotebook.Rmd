@@ -59,7 +59,7 @@ Pupliseringsskjevhet er videre noe som forskning har fokusert på. Publiseringss
 
 For å løse problemer knyttet til reproduserbarhet og replikerbarhet, var løsningen på 80-tallet å opprette arkiver i tidsskriftene for kode og data fra studiene som blir gjort. Dette er brukt av flere store  tidsskrifter lenge. @mccullough2008 fant likevel at de fleste store tidsskrifter ikke oppfylte reproduserbarhet og replikerbarhet, og at resultatene ikke kunne bli reprodusert ved bruk av dataen og koden som lå ved studiene. Dette var temmelig nedslående resultater, og det kan se ut som dagens løsning ikke fungerer; problemet er fortsatt der. 
 
-Datacite prøvde videre å lage en global database med data fra all forskning, der internasjonalt samarbeid var i fokus [@brase2009]. EU har også vært inne med en løsning [@eu2015]. 
+Datacite prøvde videre å lage en global database med data fra all forskning, der internasjonalt samarbeid var i fokus [@brase2009]. EU har også vært inne med en løsning [@eu2015], og dette er følgelig noe som arbeides med videre per dags dato. 
 
 ### Mulig løsning
 
