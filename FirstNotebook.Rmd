@@ -30,13 +30,24 @@ Tekst.
 
 # Litteraturgjennomgang
 ### Replikerbarhet / Reproduserbarhet
-–Replikerbarhet/reproduserbarhet
+Det å kunne replikere resultater og konklusjoner fra en uavhengig studie til en annen, blir i vitenskapen sett på som gullstandarden (@jasny2011). På grunn av misforståelser og bruk om hverandre i forhold til replikerbarhet og reproduserbarhet, har National Science Foundation (NSF), satt seg ned for å klare opp i dette (@bollen2015). For å kunne vise til robust og pålitelig forskning har de kommet frem til at dette betyr at forskningen er _reproduserbar_, _replikerbar_ og _generalisert_. 
 
+_Replikerbarhet_ refereres til som evnen til at en forsker kan **duplisere** resultatene av en tidligere studie ved hjelp av samme prosedyrer ved bruk av **ny data** som er samlet inn (@bollen2015). Det vil si at dersom en forsker samler inn ny data for å analysere barnedødeligheten i Norge, så vil en kunne få samme resultater som ved noen som har gjort det tidligere ved bruk av de samme prosedyrene.
 
-      
+_Reproduserbarhet_ er videre beskrevet som det å kunne få samme resultater og konklusjoner dersom en analyserer **samme materiale** tatt ut av en populasjon, ved hjelp av **samme prosedyrer** [@bollen2015]. 
+
+Reproduserbarhet er _**nødvendig**_ for å oppnå replikerbarhet, men likevel ikke nok til å oppnå dette. Om reproduserbarhet er noe som burde være et minstekrav for publisering er videre noe som har vært oppe til debatt de siste årene [@peng2011]. 
+
+Når det kommer til _generalisering_ så refereres det til hvorvidt resultatene av en studie kan overføres til andre kontekster eller populasjoner som er ulik den orginale [@bollen2015].
+
+Robusthet og pålitelighet ses på som selve fundamentet for vitenskapelig utvikling og fremgang [@bollen2015].
+
+Pupliseringsskjevhet er videre noe som forskning har fokusert på. Publiseringsskjevhet refereres til sannsynligheten for at en studie blir publisert, basert på resultatene. Er relativt få publikasjoner der en ikke kan forkaste nullhypotesen, for eksempel at en medisin ikke har effekt. Worst case - scenario kan da bli at forskningsjournaler blir en stor samling av type 1-feil. Type 1-feil er at en forkaster nullhypotesen selv om den i virkeligheten er sann. Et slikt scenario blir ofte kalt "File Drawer Problem" [@rosenthal1979]. 
+
 ### Problemets omfang
 
 ∗Vil dagens løsning med arkiv av data og event. programkode hos tidsskriftenekunne løse problemet?
+
 
 
 
