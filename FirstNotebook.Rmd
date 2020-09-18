@@ -48,11 +48,21 @@ Her kommer noen kloke ord fra Ørjan.
 Tekst. 
 
 # Analyse
-### Overskrift. 
+### Løser R notebooks problemet med reproduserbarhet? 
 
 
-### Neste overskrift.
+### Eksempler på code chunks og text chunk i R notebook. 
 Tekst.
+
+
+### Har forskere insentiver til å være "reproduserbare", eller må de tvinges?
+
+
+### Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens økte interesse bare et blaff?
+
+
+### Kan reproduserbarhet ha relevans i sektorer utenfor akademia? 
+
 
 # Konklusjon
 Tekst.
