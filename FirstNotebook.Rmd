@@ -41,9 +41,16 @@ Reproduserbarhet er aktuelt i R notebook der en kan reprodusere tallmateriale s�
 ### Replikerbarhet / Reproduserbarhet
 
 Det å kunne replikere resultater og konklusjoner fra en uavhengig studie til en annen, blir i vitenskapen sett på som gullstandarden (@jasny2011). På grunn av misforståelser og bruk om hverandre i forhold til replikerbarhet og reproduserbarhet, har National Science Foundation (NSF), satt seg ned for å klare opp i dette (@bollen2015). For å kunne vise til robust og pålitelig forskning har de kommet frem til at dette betyr at forskningen er _reproduserbar_, _replikerbar_ og _generalisert_. 
+
 _Replikerbarhet_ refereres til som evnen til at en forsker kan **duplisere** resultatene av en tidligere studie ved hjelp av samme prosedyrer ved bruk av **ny data** som er samlet inn (@bollen2015). Det vil si at dersom en forsker samler inn ny data for å analysere barnedødeligheten i Norge, så vil en kunne få samme resultater som ved noen som har gjort det tidligere ved bruk av de samme prosedyrene.
 
+> _Replikerbarhet_ - Det å kunne duplisere resultatene av en tidl. studie vha. samme prosedyrer basert på ny data som er samlet inn [@bollen2015].
+
 _Reproduserbarhet_ er videre beskrevet som det å kunne få samme resultater og konklusjoner dersom en analyserer **samme materiale** tatt ut av en populasjon, ved hjelp av **samme prosedyrer** [@bollen2015]. 
+
+
+> _Reproduserbarhet_ - Det å kunne få samme resultater og konklusjoner vha. samme prosedyrer på samme materiale [@bollen2015]. 
+
 
 Reproduserbarhet er _**nødvendig**_ for å oppnå replikerbarhet, men likevel ikke nok til å oppnå dette. Om reproduserbarhet er noe som burde være et minstekrav for publisering er videre noe som har vært oppe til debatt de siste årene [@peng2011]. 
 
@@ -64,21 +71,21 @@ Datacite prøvde videre å lage en global database med data fra all forskning, d
 ### Mulig løsning
 
 **Computable documents**  
-En annen mulig løsning er at koden ligger som en integrert part i forskningsartiklene, herunder at de inneholder tekst, samt kode for lese data, kalkulere modeller, teste og vise resultater. Dette vil da gi et fullstendig reproduserbart dokument [@knuth1992]. 
+En annen mulig løsning er at koden ligger som en integrert part i forskningsartiklene som blir produsert, herunder at de da inneholder tekst, samt kode for lese data, kalkulere modeller, teste og vise resultater. Dette vil da gi et fullstendig reproduserbart dokument [@knuth1992]. 
 
-Et kompendium har en eller flere selvforsynte livedokumenter som kan regenerere resultater ned til den minste detalj av andre [@gentleman2007].Kan da stole på denne dataen og studere denne.  
+Videre refereres det også til såkalte kompendium. Et kompendium har en eller flere selvforsynte livedokumenter som kan regenerere resultater ned til den minste detalj av andre [@gentleman2007]. Dette gjør at en kan stole på analysene som er gjort og utvikle forskningen videre.  
 
 **Dynamic document**  
 Dynamisk dokument er en ordnet sammensetning av såkalte kode- og tekst-chunks som beskriver og diskuterer et problem og en løsning. 
 
 **Code chunk**  
-"Code chunk" er en linje med kode som kan kjøres. 
+"Code chunk" er en linje med kode som kan kjøres i R. En kan for eksempel kjøre en code chunk med utgangspunkt i et datasett og få ut et plot med for eksempel sammenhengen mellom motorstørrelse og bremselengde for bilmodeller på 1970-tallet. 
 
 **Text chunk**  
-"Text chunk" er en linje med tekst. 
+"Text chunk" er en linje med ren tekst. Denne inneholder ikke kode slik som code chunk, og et eksempel er dette avsnittet.
 
 **R Notebooks**  
-En R Notebook er et R Markdown dokument med chunks som kan bli kjørt både individuelt og sammen, med synlig output under med en gang etter den er kjørt. 
+En R Notebook er et R Markdown dokument med chunks som kan bli kjørt både individuelt og sammen, med synlig output under med en gang etter den er kjørt. Dokumentet vi nå skriver i er et eksempel på dette og den store fordelen med et slikt dokument er at vi kan kombinere kode og tekst om hverandre. Dette er særlig gunstig da vi får samlet både fremgangsmåte i form av kode og tekst som beskriver hva vi har gjort, eventuelt kommentarer på resultater. R Notebook kan på denne måten være gunstig for å sikre at andre forstår hva vi har gjort og gjøre studiene reproduserbare. 
 
 # Analyse
 ### Overskrift. 
@@ -97,4 +104,6 @@ Tekst.
 # Appendiks
 Her kommer et bilde av git history. Vi må ha minst 10 commits, 3 branches og gjerne en merge conflict for stjerne i boka. Til info så ska dette bilde ligge under appendiks. 
 
-![Her er et bilde](Bildet.png)
+![_Her er et bilde av commits osv._](Bildet.png)
+
+![_Merge conflict - fikset ved å rette opp i konflikt og kommando "git add ." etterpå i terminal._](MergeConflict.png)
