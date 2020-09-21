@@ -85,6 +85,7 @@ Datacite prøvde videre å lage en global database med data fra all forskning, d
 
 ### Mulig løsning
 
+
 **Computable documents**  
 En annen mulig løsning er at koden ligger som en integrert part i forskningsartiklene som blir produsert, herunder at de da inneholder tekst, samt kode for lese data, kalkulere modeller, teste og vise resultater. Dette vil da gi et fullstendig reproduserbart dokument [@knuth1992]. 
 
@@ -115,11 +116,32 @@ Om begrepet text chunk:
 En R Notebook er et R Markdown dokument med chunks som kan bli kjørt både individuelt og sammen, med synlig output under med en gang etter den er kjørt. Dokumentet vi nå skriver i er et eksempel på dette og den store fordelen med et slikt dokument er at vi kan kombinere kode og tekst om hverandre. Dette er særlig gunstig da vi får samlet både fremgangsmåte i form av kode og tekst som beskriver hva vi har gjort, eventuelt kommentarer på resultater. R Notebook kan på denne måten være gunstig for å sikre at andre forstår hva vi har gjort og gjøre studiene reproduserbare. 
 
 # <span style="color: mediumblue;">Analyse</span>
-### Overskrift. 
-Tekst. @eu2015
 
-### Neste overskrift.
-Tekst. 
+
+### Løser R notebooks problemet med reproduserbarhet?
+
+Som tidligere nevnt er R notebook et nyttig verktøy når det kommer til kvaliteten av reproduserbarhet. Man skal kunne få samme resultater dersom materialet som brukes er likt [@bollen2015] Likevel løser ikke R notebook hele problemet tilknyttet reproduserbarhet. Mange store tidsskrifter har hatt problemer med å oppfylle reproduserbarhet. Problemet er fortsatt ikke helt løst og vi kan dermed si at R notebooks løser delvis problemet, men dessverre ikke hele. [@mccullough2008]
+
+### Eksempler på code chunks og text chunk i R notebook. 
+```{r}
+plot(cars)
+
+## Her er et eksempel på en chunk som viser grafisk oversikt for datsettet cars.
+```
+
+
+### Har forskere insentiver til å være "reproduserbare", eller må de tvinges?
+Hvor ny forskningen er prioriteres fremfor selve replikerbarheten til forskningen. Det vil derfor si at forskerne ikke har insentiver på å være reproduserbar. Dette ofte siden nye innovative ideer og forskning går utpå dato og blir ersattet av nye ideer og nytt materiale.  [@opensciencealloboration2015]
+
+### Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens økte interesse bare et blaff?
+
+For å unngå problemene med feilforskning vil nok interessen for reproduserbarhet øke i årene fremover tenker vi. Da reproduserbarhet har forbedret seg mye siden 1980-tallet, men fortsatt ikke er perfeksjonert så vil interessen for dette øke for å gjøre reproduserbarhet best mulig. Med å forbedre dette kan bedrifter spare mye tid knyttet til å sjekke om forskning stemmer overens med de første funnene.
+
+
+### Kan reproduserbarhet ha relevans i sektorer utenfor akademia?
+Ved studier som kommer frem til et svar for å endre noe til det positive for å forbedre en ting, men samtidig ikke lykkes med dette kan være kostbart. For eksempel på dette kan være en avgift som innføres, men som ikke fungerer i praksis og heller virker til det motsatte av det som i utganhgspunktet var planlagt.
+
+
 
 # <span style="color: mediumblue;">Konklusjon</span>
 Tekst.
