@@ -55,7 +55,7 @@ Tekst. @eu2015
 Tekst.
 
 # Konklusjon
-I denne oppgaven har vi sett på reproduserbarhet og den sin betydning når det kommer til forskning og spesielt knyttet til R Notebooks. Dette skriveprogrammet har helt åpenbart forbedret bruken av reproduserbarhet og ved ytterligere forbedringer vil programmet være veldig bra rustet til å gjøre reproduserbarheten ennå bedre på sikt. 
+I denne oppgaven har vi sett på reproduserbarhet og den sin betydning når det kommer til forskning og spesielt knyttet til R Notebooks. Dette skriveprogrammet har helt åpenbart forbedret bruken av reproduserbarhet innen forskning, men likevel er det et betydelig forbedringspotensial. Ved ytterligere og nødvendige forbedringer vil programmet kunne bli bra rustet til å gjøre reproduserbarheten enda bedre på sikt. 
 
 # Litteraturliste
 <div id="refs"></DIV>
