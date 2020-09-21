@@ -52,7 +52,12 @@ Tekst.
 
 
 ### Eksempler på code chunks og text chunk i R notebook. 
-Tekst.
+```{r}
+plot(cars)
+
+## Her er et eksempel på en chunk som viser grafisk oversikt for datsettet cars.
+```
+
 
 
 ### Har forskere insentiver til å være "reproduserbare", eller må de tvinges?
