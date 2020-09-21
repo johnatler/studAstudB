@@ -139,7 +139,8 @@ For å unngå problemene med feilforskning vil nok interessen for reproduserbarh
 
 
 ### Kan reproduserbarhet ha relevans i sektorer utenfor akademia?
-Ved studier som kommer frem til et svar for å endre noe til det positive for å forbedre en ting, men samtidig ikke lykkes med dette kan være kostbart. For eksempel på dette kan være en avgift som innføres, men som ikke fungerer i praksis og heller virker til det motsatte av det som i utganhgspunktet var planlagt.
+
+Ved studier som kommer frem til et svar for å endre noe til det positive for å forbedre en ting, men samtidig ikke lykkes med dette kan gi konsekvenser. Et eksempel på dette kan være en avgift som innføres, som for eksempel at brukere av el-bil skal betale bompenger for å få inn mer penger til veiarbeid og samtidig opprettholde eller øke klimavennligheten i trafikken. Ved innføringen av et slikt studie kan gjøre at brukere av el-bil synker grunnet innføring av bompengeavgiften selv om undersøkelsen viser det motsatte.
 
 
 
