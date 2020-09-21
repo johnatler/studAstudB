@@ -119,7 +119,7 @@ En R Notebook er et R Markdown dokument med chunks som kan bli kjørt både indi
 Tekst. @eu2015
 
 ### Neste overskrift.
-Tekst.
+Tekst. 
 
 # <span style="color: mediumblue;">Konklusjon</span>
 Tekst.
