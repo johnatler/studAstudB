@@ -59,7 +59,6 @@ plot(cars)
 ```
 
 
-
 ### Har forskere insentiver til å være "reproduserbare", eller må de tvinges?
 
 
