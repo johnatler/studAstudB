@@ -140,6 +140,9 @@ Her kommer et bilde av git history. Vi må ha minst 10 commits, 3 branches og gj
 Bilde    | Forklaring
 -------- |   -------------
 ![](MergeConflict.png)      |  _Merge conflict - fikset ved å rette opp i konflikt og kommando "git add ." etterpå i terminalvinduet._
-![](Commits.png)   |   _Her samme bilde av commits etc. som ovenfor._
+![](Commits.png)   |   _Her samme bilde av commits etc. som ovenfor._ 
+
+
+
       
 
