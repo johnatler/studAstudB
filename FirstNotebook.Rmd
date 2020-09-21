@@ -55,7 +55,7 @@ Tekst. @eu2015
 Tekst.
 
 # Konklusjon
-Tekst.
+Reproduserbarhet er sentralt R notebook 
 
 # Litteraturliste
 <div id="refs"></DIV>
