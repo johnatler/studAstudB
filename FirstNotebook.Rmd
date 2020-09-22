@@ -63,7 +63,6 @@ Datacite prøvde videre å lage en global database med data fra all forskning, d
 
 ### Mulig løsning
 
-
 **Computable documents**  
 En annen mulig løsning på problemet er at koden ligger som en integrert part i forskningsartiklene som blir produsert, herunder at de i tillegg til å inneholde tekst, inneholder kode for lese data, kalkulere modeller, teste og vise resultater. Dette vil da kunne gi et fullstendig reproduserbart dokument [@knuth1992]. 
 
@@ -77,6 +76,7 @@ Dynamisk dokument er en ordnet sammensetning av såkalte kode- og tekst-chunks s
 
 **Text chunk**  
 "Text chunk" er en linje med ren tekst. Denne inneholder ikke kode slik som code chunk, og et eksempel er dette avsnittet dersom det er åpnet i Rstudio.
+
 
 **R Notebooks**  
 En R Notebook er et R Markdown dokument med chunks som kan bli kjørt både individuelt og sammen, med synlig output under med en gang etter den er kjørt. Dokumentet vi nå skriver i er et eksempel på dette og den store fordelen med et slikt dokument er at vi kan kombinere kode og tekst om hverandre. Dette er særlig gunstig da vi får samlet både fremgangsmåte i form av kode og tekst som beskriver hva vi har gjort, eventuelt kommentarer på resultater. R Notebook kan på denne måten være gunstig for å sikre at andre forstår hva vi har gjort og til å gjøre studiene reproduserbare. 
@@ -110,7 +110,9 @@ Reproduserbarhet kan også ha relevans i sektorer utenfor akademia. Dette kan fo
 
 
 # <span style="color: mediumblue;">Konklusjon</span>
-Tekst.
+
+I denne oppgaven har vi sett på reproduserbarhet og replikerbarhet og de sine betydninger når det kommer til forskning og spesielt knyttet til R Notebooks. Dette skriveprogrammet har helt åpenbart forbedret bruken av reproduserbarhet og replikerbarhet innen forskning, men likevel er det et betydelig forbedringspotensial. Ved ytterligere og nødvendige forbedringer vil programmet kunne bli bra rustet til å gjøre reproduserbarheten og replikerbarheten enda bedre på sikt. 
+
 
 # <span style="color: mediumblue;">Litteraturliste</span>
 <div id="refs"></DIV>
