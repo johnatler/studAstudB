@@ -1,36 +1,14 @@
 ---
-title: "Studiekrav: Reproduserbarhet"
+title: 'Studiekrav: Reproduserbarhet'
 output:
   html_document:
     df_print: paged
   pdf_document: default
+  word_document: default
 lang: nb-NO
 bibliography: reproducibility.bib
-csl: apa-no-ampersand.csl 
+csl: apa-no-ampersand.csl
 ---
-
-# Generell info til oppgaven vår:  
-Dersom vi ønsker å fortsette på linja under trenger en bare ta to mellomrom etter teksten..  
-_**Italic og bold**_  
-**Bold**  
-_Italic_
-
-Her er et sitat:  
-
-> Dette er et sitat.
-
-Her er en ordnet liste på  2 nivå:  
-
-1. Punkt 1
-    + Punkt 1.2
-1. Punkt 2
-    + Punkt 2.2
-    
-Header   | Second Header
--------- |   -------------
-123      |  123455
-123      |  12434 
-
 #  <span style="color: mediumblue;">Innholdsfortegnelse</span>
 
 1. Innledning
@@ -73,7 +51,7 @@ Når det kommer til _generalisering_ så refereres det til hvorvidt resultatene 
 
 Robusthet og pålitelighet ses på som selve fundamentet for vitenskapelig utvikling og fremgang [@bollen2015].
 
-Pupliseringsskjevhet er videre noe som forskning har fokusert på. Publiseringsskjevhet refereres til sannsynligheten for at en studie blir publisert, basert på resultatene. Er relativt få publikasjoner der en ikke kan forkaste nullhypotesen, for eksempel at en medisin ikke har effekt.  Worst case - scenario kan da bli at forskningsjournaler blir en stor samling av type 1-feil. Type 1-feil er at en forkaster nullhypotesen selv om den i virkeligheten er sann. Et slikt scenario blir ofte kalt "File Drawer Problem" [@rosenthal1979]. For illustrasjonens del kan det i realiteten være 100 upubliserte studier som ikke kan forkaste H0 om at en medisin har null effekt, mens 4 som forkaster denne H0 kan være publisert.Dette kan spre uriktig informasjon, og føre til dårlige investeringer i blant annet politiske reformer som har veldig liten effekt og dårlige forskningsprosjekter, samt begrense et tidsskrift sin troverdighet [@simmons2011]. 
+_Pupliseringsskjevhet_ er videre noe som forskning har fokusert på. Publiseringsskjevhet refereres til sannsynligheten for at en studie blir publisert, basert på resultatene. Er relativt få publikasjoner der en ikke kan forkaste nullhypotesen, for eksempel at en medisin ikke har effekt.  Worst case - scenario kan da bli at forskningsjournaler blir en stor samling av type 1-feil. Type 1-feil er at en forkaster nullhypotesen selv om den i virkeligheten er sann. Et slikt scenario blir ofte kalt "File Drawer Problem" [@rosenthal1979]. For illustrasjonens del kan det i realiteten være 100 upubliserte studier som ikke kan forkaste H0 om at en medisin har null effekt, mens 4 som forkaster denne H0 kan være publisert.Dette kan spre uriktig informasjon, og føre til dårlige investeringer i blant annet politiske reformer som har veldig liten effekt og dårlige forskningsprosjekter, samt begrense et tidsskrift sin troverdighet [@simmons2011]. 
 
 ### Problemets omfang
 
@@ -91,26 +69,14 @@ En annen mulig løsning på problemet er at koden ligger som en integrert part i
 
 Videre refereres det også til såkalte kompendium. Et kompendium har en eller flere selvforsynte livedokumenter som kan regenerere resultater ned til den minste detalj av andre [@gentleman2007]. Dette gjør at en kan stole på analysene som er gjort, bygge videre på resultatene og utvikle forskningen videre. 
 
-Om begrepet kompendium:
-
-> _Both a container for the different elements that make up the document andits computations (i.e. text, code, data, . . . ), and as a means for distributing,managing and updating the collection. - @gentleman2005 _ 
-
 **Dynamic document**  
 Dynamisk dokument er en ordnet sammensetning av såkalte kode- og tekst-chunks som beskriver og diskuterer et problem og en løsning. 
 
 **Code chunk**  
 "Code chunk" er en linje med kode som kan kjøres i R. En kan for eksempel kjøre en code chunk med utgangspunkt i et datasett og få ut et plot med for eksempel sammenhengen mellom motorstørrelse og bremselengde for bilmodeller på 1970-tallet. 
 
-Om begrepet code chunk:  
-
-> _Sequences of commands in some programming language such as R or Perl. Codechunks are intended to be evaluated according to the language in which theyare written. These perform the computations needed to produce the appropriateoutput within the paper, and also to produce intermediate results used acrossdifferent code chunks. - @gentleman2005 _
-
 **Text chunk**  
 "Text chunk" er en linje med ren tekst. Denne inneholder ikke kode slik som code chunk, og et eksempel er dette avsnittet dersom det er åpnet i Rstudio.
-
-Om begrepet text chunk:
-
-> _Text chunks describe the problem, the code, the results and often their interpre-tation. Text chunks are intended to be formatted for reading. - @gentleman2005 _
 
 **R Notebooks**  
 En R Notebook er et R Markdown dokument med chunks som kan bli kjørt både individuelt og sammen, med synlig output under med en gang etter den er kjørt. Dokumentet vi nå skriver i er et eksempel på dette og den store fordelen med et slikt dokument er at vi kan kombinere kode og tekst om hverandre. Dette er særlig gunstig da vi får samlet både fremgangsmåte i form av kode og tekst som beskriver hva vi har gjort, eventuelt kommentarer på resultater. R Notebook kan på denne måten være gunstig for å sikre at andre forstår hva vi har gjort og til å gjøre studiene reproduserbare. 
@@ -152,17 +118,10 @@ Tekst.
 
 # <span style="color: mediumblue;">Appendiks</span>
 
-
-![_Her er et bilde av minst 10 commits og 3 branches._](Commits.png)
-
-![_Merge conflict - fikset ved å rette opp i konflikt og kommando "git add ." etterpå i terminalvinduet._](MergeConflict.png)
-  
-#### <span style="color: mediumblue;">Bonusmateriale:</span>
-
 Bilde    | Forklaring
 -------- |   -------------
 ![](MergeConflict.png)      |  _Merge conflict - fikset ved å rette opp i konflikt og kommando "git add ." etterpå i terminalvinduet._
-![](Commits.png)   |   _Her er samme bilde av commits etc. som ovenfor._ 
+![](Commits.png)   |   _Her er et bilde av minst 10 commits og 3 branches._ 
 
 
 
