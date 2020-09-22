@@ -1,10 +1,10 @@
 ---
 title: 'Studiekrav: Reproduserbarhet'
 output:
-  word_document: default
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
+  word_document: default
 lang: nb-NO
 bibliography: reproducibility.bib
 csl: apa-no-ampersand.csl
@@ -17,8 +17,11 @@ csl: apa-no-ampersand.csl
     + Problemets omfang
     + Mulig løsning
 1. Analyse
-    + Overskrift 1
-    + Overskrift 2
+    + Løser R notebooks problemet med reproduserbarhet?
+    + Eksempler på code chunks og text chunk i R notebook.
+    + Har forskere insentiver til å være "reproduserbare", eller må de tvinges?
+    + Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens økte interesse bare et blaff?
+    + Kan reproduserbarhet ha relevans i sektorer utenfor akademia?
 1. Konklusjon
 1. Litteraturliste
 1. Appendiks
