@@ -47,9 +47,9 @@ Header   | Second Header
 
 
 # <span style="color: mediumblue;">Innledning</span>
-Reproduserbarhet er viktig for å skape troverdighet av funnnene som forskes på. Det vil si at om du har samme datasett, skal funnene være ganske like for at vi kan si at funnene er reproduserbare. 
+Reproduserbarhet og replikerbarhet er særdeles viktig for å skape troverdighet av funn som er gjort i forskningssammenheng, men er samtidig også essensiell for å kunne videreutvikle forskning. At forskere kan gjenskape andres arbeid og resultater, enten basert på samme datasett eller lignende datasett, er dermed viktig for å kunne bekrefte funnene som er gjort. Å ta enhver forskning for god fisk, uten korrekt og utfyllendende dokumentasjon, kan i ytterste konsekvens få fatale følger.
 
-Reproduserbarhet er aktuelt i R notebook der en kan reprodusere tallmateriale så lenge en har lastet ned alle de riktige pakkene. Ved samme datasett skal en kunne få omtrentlig samme verdier om en tester datasettet ved flere anledninger inne i R Notebook. Er dette programmet likevel godt nok til å unngå feil når det kommer til reproduserbarhet?
+Reproduserbarhet og replikerbarhet er noe av grunnnen til at ulike programvarer som R Notebook har sett dagens lys. Ved å ta i bruk programvare som R Notebook kan en reprodusere tallmateriale og resultater, så lenge en har lastet ned alle de riktige datapakkene. Ved samme datasett skal en da kunne få omtrentlig samme verdier om en tester datasettet ved flere anledninger inne i R Notebook. En kan likevel stille spørsmål til om dette programmet er godt nok til å unngå feil når det kommer til reproduserbarhet?
 
 
 # <span style="color: mediumblue;">Litteraturgjennomgang</span>
@@ -77,7 +77,7 @@ Pupliseringsskjevhet er videre noe som forskning har fokusert på. Publiseringss
 
 ### Problemets omfang
 
-- **Vil dagens løsning med arkiv av data og event. programkode hos tidsskriftene kunne løse problemet?**
+**Vil dagens løsning med arkiv av data og event. programkode hos tidsskriftene kunne løse problemet?**
 
 For å løse problemer knyttet til reproduserbarhet og replikerbarhet, var løsningen på 80-tallet å opprette arkiver i tidsskriftene for kode og data fra studiene som blir gjort. Dette er brukt av flere store  tidsskrifter lenge. @mccullough2008 fant likevel at de fleste store tidsskrifter ikke oppfylte reproduserbarhet og replikerbarhet, og at resultatene ikke kunne bli reprodusert ved bruk av dataen og koden som lå ved studiene. Dette var temmelig nedslående resultater, og det kan se ut som dagens løsning ikke fungerer; problemet er fortsatt der. 
 
@@ -126,12 +126,12 @@ Som tidligere nevnt er R notebook et nyttig verktøy når det kommer til kvalite
 ```{r}
 plot(cars)
 
-## Her er et eksempel på en chunk som viser grafisk oversikt for datsettet cars.
+# Her er et eksempel på en code chunk som viser grafisk oversikt for datsettet cars. Denne meldingen er en tekst chunk.
 ```
 
 
 ### Har forskere insentiver til å være "reproduserbare", eller må de tvinges?
-Hvor ny forskningen er, er noe som ofte prioriteres fremfor selve replikerbarheten til forskningen. Det nye og revolusjonerende, eller banebrytende om du vil, er ofte noe som havner i fokus. Dette taler for at forskerne ikke har insentiver på å være reproduserbare. Dette ofte siden nye innovative ideer og forskning går utpå dato og blir ersattet av nye ideer og nytt materiale.  [@opensciencealloboration2015]
+Hvor ny forskningen er, er noe som ofte prioriteres fremfor selve replikerbarheten til forskningen. Det nye og revolusjonerende, eller banebrytende om du vil, er ofte noe som havner i fokus. Dette taler for at forskerne ikke har insentiver på å være reproduserbare. Dette ofte siden nye innovative ideer og forskning går utpå dato og blir ersattet av nye ideer og nytt materiale  [@opensciencecollaboration2015]
 
 ### Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens økte interesse bare et blaff?
 
@@ -151,7 +151,7 @@ Tekst.
 
 
 # <span style="color: mediumblue;">Appendiks</span>
-Her kommer et bilde av git history. Vi må ha minst 10 commits, 3 branches og gjerne en merge conflict for stjerne i boka. Til info så ska dette bilde ligge under appendiks. 
+
 
 ![_Her er et bilde av minst 10 commits og 3 branches._](Commits.png)
 
@@ -162,7 +162,7 @@ Her kommer et bilde av git history. Vi må ha minst 10 commits, 3 branches og gj
 Bilde    | Forklaring
 -------- |   -------------
 ![](MergeConflict.png)      |  _Merge conflict - fikset ved å rette opp i konflikt og kommando "git add ." etterpå i terminalvinduet._
-![](Commits.png)   |   _Her samme bilde av commits etc. som ovenfor._ 
+![](Commits.png)   |   _Her er samme bilde av commits etc. som ovenfor._ 
 
 
 
