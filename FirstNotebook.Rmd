@@ -153,7 +153,7 @@ Tekst.
 # <span style="color: mediumblue;">Appendiks</span>
 Her kommer et bilde av git history. Vi må ha minst 10 commits, 3 branches og gjerne en merge conflict for stjerne i boka. Til info så ska dette bilde ligge under appendiks. 
 
-![_Her er et bilde av commits osv._](Commits.png)
+![_Her er et bilde av minst 10 commits og 3 branches._](Commits.png)
 
 ![_Merge conflict - fikset ved å rette opp i konflikt og kommando "git add ." etterpå i terminalvinduet._](MergeConflict.png)
   
