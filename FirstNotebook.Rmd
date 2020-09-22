@@ -87,9 +87,9 @@ Datacite prøvde videre å lage en global database med data fra all forskning, d
 
 
 **Computable documents**  
-En annen mulig løsning er at koden ligger som en integrert part i forskningsartiklene som blir produsert, herunder at de da inneholder tekst, samt kode for lese data, kalkulere modeller, teste og vise resultater. Dette vil da gi et fullstendig reproduserbart dokument [@knuth1992]. 
+En annen mulig løsning på problemet er at koden ligger som en integrert part i forskningsartiklene som blir produsert, herunder at de i tillegg til å inneholde tekst, inneholder kode for lese data, kalkulere modeller, teste og vise resultater. Dette vil da kunne gi et fullstendig reproduserbart dokument [@knuth1992]. 
 
-Videre refereres det også til såkalte kompendium. Et kompendium har en eller flere selvforsynte livedokumenter som kan regenerere resultater ned til den minste detalj av andre [@gentleman2007]. Dette gjør at en kan stole på analysene som er gjort og utvikle forskningen videre. 
+Videre refereres det også til såkalte kompendium. Et kompendium har en eller flere selvforsynte livedokumenter som kan regenerere resultater ned til den minste detalj av andre [@gentleman2007]. Dette gjør at en kan stole på analysene som er gjort, bygge videre på resultatene og utvikle forskningen videre. 
 
 Om begrepet kompendium:
 
@@ -106,21 +106,21 @@ Om begrepet code chunk:
 > _Sequences of commands in some programming language such as R or Perl. Codechunks are intended to be evaluated according to the language in which theyare written. These perform the computations needed to produce the appropriateoutput within the paper, and also to produce intermediate results used acrossdifferent code chunks. - @gentleman2005 _
 
 **Text chunk**  
-"Text chunk" er en linje med ren tekst. Denne inneholder ikke kode slik som code chunk, og et eksempel er dette avsnittet.
+"Text chunk" er en linje med ren tekst. Denne inneholder ikke kode slik som code chunk, og et eksempel er dette avsnittet dersom det er åpnet i Rstudio.
 
 Om begrepet text chunk:
 
 > _Text chunks describe the problem, the code, the results and often their interpre-tation. Text chunks are intended to be formatted for reading. - @gentleman2005 _
 
 **R Notebooks**  
-En R Notebook er et R Markdown dokument med chunks som kan bli kjørt både individuelt og sammen, med synlig output under med en gang etter den er kjørt. Dokumentet vi nå skriver i er et eksempel på dette og den store fordelen med et slikt dokument er at vi kan kombinere kode og tekst om hverandre. Dette er særlig gunstig da vi får samlet både fremgangsmåte i form av kode og tekst som beskriver hva vi har gjort, eventuelt kommentarer på resultater. R Notebook kan på denne måten være gunstig for å sikre at andre forstår hva vi har gjort og gjøre studiene reproduserbare. 
+En R Notebook er et R Markdown dokument med chunks som kan bli kjørt både individuelt og sammen, med synlig output under med en gang etter den er kjørt. Dokumentet vi nå skriver i er et eksempel på dette og den store fordelen med et slikt dokument er at vi kan kombinere kode og tekst om hverandre. Dette er særlig gunstig da vi får samlet både fremgangsmåte i form av kode og tekst som beskriver hva vi har gjort, eventuelt kommentarer på resultater. R Notebook kan på denne måten være gunstig for å sikre at andre forstår hva vi har gjort og til å gjøre studiene reproduserbare. 
 
 # <span style="color: mediumblue;">Analyse</span>
 
 
 ### Løser R notebooks problemet med reproduserbarhet?
 
-Som tidligere nevnt er R notebook et nyttig verktøy når det kommer til kvaliteten av reproduserbarhet. Man skal kunne få samme resultater dersom materialet som brukes er likt [@bollen2015] Likevel løser ikke R notebook hele problemet tilknyttet reproduserbarhet. Mange store tidsskrifter har hatt problemer med å oppfylle reproduserbarhet. Problemet er fortsatt ikke helt løst og vi kan dermed si at R notebooks løser delvis problemet, men dessverre ikke hele. [@mccullough2008]
+Som tidligere nevnt er R notebook et nyttig verktøy når det kommer til kvaliteten av reproduserbarhet. Man skal kunne få samme resultater dersom materialet som brukes er likt [@bollen2015]. Likevel løser ikke R notebook hele problemet tilknyttet reproduserbarhet. Mange store tidsskrifter har følgelig hatt problemer med å oppfylle reproduserbarhet. Problemet er fortsatt ikke helt løst og vi kan dermed si at R notebooks til nå bare løser delvis problemet, men dessverre ikke hele. [@mccullough2008]
 
 ### Eksempler på code chunks og text chunk i R notebook. 
 ```{r}
@@ -131,17 +131,16 @@ plot(cars)
 
 
 ### Har forskere insentiver til å være "reproduserbare", eller må de tvinges?
-Hvor ny forskningen er prioriteres fremfor selve replikerbarheten til forskningen. Det vil derfor si at forskerne ikke har insentiver på å være reproduserbar. Dette ofte siden nye innovative ideer og forskning går utpå dato og blir ersattet av nye ideer og nytt materiale.  [@opensciencealloboration2015]
+Hvor ny forskningen er, er noe som ofte prioriteres fremfor selve replikerbarheten til forskningen. Det nye og revolusjonerende, eller banebrytende om du vil, er ofte noe som havner i fokus. Dette taler for at forskerne ikke har insentiver på å være reproduserbare. Dette ofte siden nye innovative ideer og forskning går utpå dato og blir ersattet av nye ideer og nytt materiale.  [@opensciencealloboration2015]
 
 ### Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens økte interesse bare et blaff?
 
-For å unngå problemene med feilforskning vil nok interessen for reproduserbarhet øke i årene fremover tenker vi. Da reproduserbarhet har forbedret seg mye siden 1980-tallet, men fortsatt ikke er perfeksjonert så vil interessen for dette øke for å gjøre reproduserbarhet best mulig. Med å forbedre dette kan bedrifter spare mye tid knyttet til å sjekke om forskning stemmer overens med de første funnene.
+For å unngå problemene med feilforskning vil nok interessen for reproduserbarhet øke i årene fremover. Da reproduserbarhet har forbedret seg mye siden 1980-tallet, men fortsatt er langt fra perfeksjonert, så vil dette tale for at interessen for å gjøre reproduserbarheten best mulig vil øke. Med å forbedre dette kan bedrifter blant annet spare mye tid knyttet til å sjekke om forskning stemmer overens med de første funnene, i tillegg til at samfunnet som helhet kan unngå dyre investeringer i politikk som ikke fungerer. Et annet moment er at et fokus på resproduserbarhet vil kunne øke mengden informasjon i omløp og gi oss et riktigere bilde av for eksempel hvor godt ulike typer medisiner fungerer. 
 
 
 ### Kan reproduserbarhet ha relevans i sektorer utenfor akademia?
 
-Ved studier som kommer frem til et svar for å endre noe til det positive for å forbedre en ting, men samtidig ikke lykkes med dette kan gi konsekvenser. Et eksempel på dette kan være en avgift som innføres, som for eksempel at brukere av el-bil skal betale bompenger for å få inn mer penger til veiarbeid og samtidig opprettholde eller øke klimavennligheten i trafikken. Ved innføringen av et slikt studie kan gjøre at brukere av el-bil synker grunnet innføring av bompengeavgiften selv om undersøkelsen viser det motsatte.
-
+Reproduserbarhet kan også ha relevans i sektorer utenfor akademia. Dette kan for eksempel være nevnte eksempel med medisiner, men også politiske vedtak. Et eksempel på dette er studier som kommer frem til en positiv effekt av at brukere av el-bil skal begynne å betale mer bompenger for å få inn mer penger til veiarbeid og samtidig opprettholde eller øke klimavennligheten i trafikken. Ved innføringen av et slikt tiltak kan det i verste fall være motsatt effekt, i form av at andelen som eier el-bil synker, og en får heller færre penger inn og høyere forurensning fra de som nå kjører bensin-/dieselbil isteden. 
 
 
 # <span style="color: mediumblue;">Konklusjon</span>
