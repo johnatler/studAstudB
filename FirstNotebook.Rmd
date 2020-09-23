@@ -128,7 +128,10 @@ Bilde    | Forklaring
 ![](MergeConflict.png)      |  _Merge conflict - fikset ved å rette opp i konflikt og kommando "git add ." etterpå i terminalvinduet._
 ![](Commits.png)   |   _Her er et bilde av minst 10 commits og 3 branches._ 
 
-
+```{r, Sessioninfo}
+sessionInfo()
+```
+_SessionInfo-kommandoen kan hjelpe oss å gjøre et dokument reprodusert ved at den blant annet dokumenterer hvilken R-versjon vi har brukt, operativsystemet, datapakkene etc. Dette gjør at det er større sannsynlighet for at noen andre kan få samme resultater som oss når de skal reprodusere vår oppgave/studie._ 
 
       
 
