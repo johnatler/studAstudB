@@ -116,7 +116,6 @@ Reproduserbarhet kan også ha relevans i sektorer utenfor akademia. Dette kan fo
 
 # <span style="color: mediumblue;">Konklusjon</span>
 
-# Konklusjon
 
 I denne oppgaven har vi sett på reproduserbarhet og replikerbarhet og de sine betydninger når det kommer til forskning og spesielt knyttet til R Notebooks. Dataprogram som dette har helt åpenbart forbedret bruken av reproduserbarhet og replikerbarhet innen forskning, men likevel er det et betydelig forbedringspotensial. Ved ytterligere og nødvendige forbedringer vil program som R Notebooks kunne bli bedre rustet til å gjøre reproduserbarheten og replikerbarheten enda bedre på sikt. Dette vil komme både oss og forskningen til gode. 
 
