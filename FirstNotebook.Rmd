@@ -38,7 +38,7 @@ Reproduserbarhet og replikerbarhet er noe av grunnnen til at ulike programvarer 
 
 Det å kunne replikere resultater og konklusjoner fra en uavhengig studie til en annen, blir i vitenskapen sett på som gullstandarden (@jasny2011). På grunn av misforståelser og bruk om hverandre i forhold til replikerbarhet og reproduserbarhet, har National Science Foundation (NSF), satt seg ned for å klare opp i dette (@bollen2015). For å kunne vise til robust og pålitelig forskning har de kommet frem til at dette betyr at forskningen er _reproduserbar_, _replikerbar_ og _generalisert_. 
 
-_Replikerbarhet_ refereres til som evnen til at en forsker kan **duplisere** resultatene av en tidligere studie ved hjelp av samme prosedyrer ved bruk av **ny data** som er samlet inn (@bollen2015). Det vil si at dersom en forsker samler inn ny data for å analysere barnedødeligheten i Norge, så vil en kunne få samme resultater som ved noen som har gjort det tidligere ved bruk av de samme prosedyrene.
+_Replikerbarhet_ refereres til som evnen til at en forsker kan **duplisere resultatene** av en tidligere studie ved hjelp av samme prosedyrer ved bruk av **ny data** som er samlet inn (@bollen2015). Det vil si at dersom en forsker samler inn ny data for å analysere barnedødeligheten i Norge, så vil en kunne få samme resultater som ved noen som har gjort det tidligere ved bruk av de samme prosedyrene.
 
 > _Replikerbarhet_ - Det å kunne duplisere resultatene av en tidl. studie vha. samme prosedyrer basert på ny data som er samlet inn [@bollen2015].
 
