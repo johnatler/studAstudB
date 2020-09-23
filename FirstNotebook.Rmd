@@ -79,9 +79,12 @@ Pupliseringsskjevhet er videre noe som forskning har fokusert på. Publiseringss
 
 - **Vil dagens løsning med arkiv av data og event. programkode hos tidsskriftene kunne løse problemet?**
 
+<<<<<<< HEAD
 For å løse problemer knyttet til reproduserbarhet og replikerbarhet, var løsningen på 80-tallet å opprette arkiver i tidsskriftene for kode og data fra studiene som blir gjort. Dette er brukt av flere store  tidsskrifter lenge. @mccullough2008 fant likevel at de fleste store tidsskrifter ikke oppfylte reproduserbarhet og replikerbarhet, og at resultatene ikke kunne bli reprodusert ved bruk av dataen og koden som lå ved studiene. Dette var temmelig nedslående resultater, og det kan se ut som dagens løsning ikke fungerer; problemet er fortsatt der. 
 
 Datacite prøvde videre å lage en global database med data fra all forskning, der internasjonalt samarbeid var i fokus [@brase2009]. EU har også vært inne med en løsning [@eu2015], og dette er følgelig noe som arbeides med videre per dags dato. 
+=======
+>>>>>>> konklusjon
 
 ### Mulig løsning
 
@@ -105,6 +108,7 @@ Om begrepet code chunk:
 
 > _Sequences of commands in some programming language such as R or Perl. Codechunks are intended to be evaluated according to the language in which theyare written. These perform the computations needed to produce the appropriateoutput within the paper, and also to produce intermediate results used acrossdifferent code chunks. - @gentleman2005 _
 
+<<<<<<< HEAD
 **Text chunk**  
 "Text chunk" er en linje med ren tekst. Denne inneholder ikke kode slik som code chunk, og et eksempel er dette avsnittet.
 
@@ -146,6 +150,10 @@ Ved studier som kommer frem til et svar for å endre noe til det positive for å
 
 # <span style="color: mediumblue;">Konklusjon</span>
 Tekst.
+=======
+# Konklusjon
+I denne oppgaven har vi sett på reproduserbarhet og replikerbarhet og de sine betydninger når det kommer til forskning og spesielt knyttet til R Notebooks. Dette skriveprogrammet har helt åpenbart forbedret bruken av reproduserbarhet og replikerbarhet innen forskning, men likevel er det et betydelig forbedringspotensial. Ved ytterligere og nødvendige forbedringer vil programmet kunne bli bra rustet til å gjøre reproduserbarheten og replikerbarheten enda bedre på sikt. 
+
 
 # <span style="color: mediumblue;">Litteraturliste</span>
 <div id="refs"></DIV>
