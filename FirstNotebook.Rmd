@@ -64,6 +64,7 @@ For å løse problemer knyttet til reproduserbarhet og replikerbarhet, var løsn
 
 Datacite prøvde videre å lage en global database med data fra all forskning, der internasjonalt samarbeid var i fokus [@brase2009]. EU har også vært inne med en løsning [@eu2015], og dette er følgelig noe som arbeides med videre per dags dato. 
 
+
 ### Mulig løsning
 
 **Computable documents**  
@@ -76,6 +77,7 @@ Dynamisk dokument er en ordnet sammensetning av såkalte kode- og tekst-chunks s
 
 **Code chunk**  
 "Code chunk" er en linje med kode som kan kjøres i R. En kan for eksempel kjøre en code chunk med utgangspunkt i et datasett og få ut et plot med for eksempel sammenhengen mellom motorstørrelse og bremselengde for bilmodeller på 1970-tallet. 
+
 
 **Text chunk**  
 "Text chunk" er en linje med ren tekst. Denne inneholder ikke kode slik som code chunk, og et eksempel er dette avsnittet dersom det er åpnet i Rstudio.
@@ -114,8 +116,8 @@ Reproduserbarhet kan også ha relevans i sektorer utenfor akademia. Dette kan fo
 
 # <span style="color: mediumblue;">Konklusjon</span>
 
-I denne oppgaven har vi sett på reproduserbarhet og replikerbarhet og de sine betydninger når det kommer til forskning og spesielt knyttet til R Notebooks. Dataprogram som dette har helt åpenbart forbedret bruken av reproduserbarhet og replikerbarhet innen forskning, men likevel er det et betydelig forbedringspotensial. Ved ytterligere og nødvendige forbedringer vil program som R Notebooks kunne bli bedre rustet til å gjøre reproduserbarheten og replikerbarheten enda bedre på sikt. Dette vil komme både oss og forskningen til gode. 
 
+I denne oppgaven har vi sett på reproduserbarhet og replikerbarhet og de sine betydninger når det kommer til forskning og spesielt knyttet til R Notebooks. Dataprogram som dette har helt åpenbart forbedret bruken av reproduserbarhet og replikerbarhet innen forskning, men likevel er det et betydelig forbedringspotensial. Ved ytterligere og nødvendige forbedringer vil program som R Notebooks kunne bli bedre rustet til å gjøre reproduserbarheten og replikerbarheten enda bedre på sikt. Dette vil komme både oss og forskningen til gode. 
 
 # <span style="color: mediumblue;">Litteraturliste</span>
 <div id="refs"></DIV>
