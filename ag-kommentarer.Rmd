@@ -1,0 +1,37 @@
+---
+title: "Tilbakemelding"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+1) Dokumentet kan kjøres ut som html, docx og pdf. Bra! Siteringssystemet virker. Bra!
+2) Mitt råd er: Ikke bruk ekstra formatering i headers etc.. Føler dere at stilen bør endres bør dette gjøres i css filen. 
+3) Innholdsfortegnelse får en ved å bruke `toc: true` i YAML. Får da riktignok ikke overskriften *Innhold* i html utgaven (men ok i word og pdf utgaven). Kan få overskriften i html ved å benytte 
+
+```
+<script>
+  // Move TOC to the Table of Contents heading (with id "table-of-contents")
+  $(function() {
+    $( "#TOC" ).insertAfter( $( "#table-of-contents" ) );
+  });
+</script>
+
+<h1 id="table-of-contents">Innholdsfortegnelse</h1>
+```
+
+men da blir det feil i pdf. Tror det beste er å akseptere manglende overskrift for innholdslisten i html utgaven eller eventuelt hacke selve templaten.
+
+4) Ikke komma mellom r og navn i code-chunck, men det skal være komma før første opsjon, F.eks. 
+*r Sessioninfo, eval=FALSE* og **ikke** *r, Sessioninfo, eval=FALSE*
+5) Slik dere har lagt inn sessionInfo vil det som havner i documentet være *min* (eller den som kjører documentet) sin sessionInfo. Skal det ha noe for seg må den siste som kjører dokumentet før det blir offentliggjort kjøre `sessionInfo` i *sitt* konsoll og så lime output fra kommandoen inn som et appendiks el.
+6) Lur bruk av `kable` for å få cation til figurene. En annen måte å løse det på er
+
+![Merge conflict - fikset ved å rette opp i konflikt og kommando "git add ." etterpå i terminalvinduet.](MergeConflict.png){width=70%}
+
+![Her er et bilde av minst 10 commits og 3 branches.](Commits.png){width=70%}
+
+7) I de to første avsnittene i litteraturgjennomgangen misbruker dere varianten uten klammer (in text varianten) med å omhylle den med parantes. Se mitt forslag for riktig bruk. (dreier seg om bollen2015 og @jasny2011)
+
+I det hele flott innsats. Ta hensyn til mine innspill hvis dere synes de har noe for seg. Hvis ikke kan dere jo bare gå et steg tilbake på master.
+
+arnstein
